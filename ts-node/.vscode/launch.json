@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "pwa-node",
+      "request": "launch",
+      "args": ["${workspaceRoot}/src/server.ts"],
+      "runtimeArgs": ["-r", "ts-node/register", "--exec", "node"],
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "nodemon",
+      "restart": true,
+      "env": {
+        "PORT": "3003",
+        "NODE_ENV": "development",
+        "NODE_CONFIG_DIR": "src/config",
+        "TS_NODE_IGNORE": "false"
+      },
+      "console": "internalConsole",
+      "outputCapture": "std"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "deno",
+      "runtimeArgs": [
+        "run",
+        "--inspect",
+        "--allow-env",
+        "--allow-net",
+        "app.ts"
+      ],
+      "port": 9229,
+      "console": "internalConsole",
+      "outputCapture": "std"
+    }
+  ]
+}
