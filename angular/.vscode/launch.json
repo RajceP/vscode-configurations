@@ -4,7 +4,6 @@
     {
       "name": "ng serve",
       "type": "pwa-chrome",
-      "runtimeExecutable": "C:\\Program Files (x86)\\BraveSoftware\\Brave-Browser-Nightly\\Application\\brave.exe",
       "request": "launch",
       "preLaunchTask": "npm: start",
       "postDebugTask": "npm stop",
@@ -36,10 +35,9 @@
     },
     {
       "name": "ng e2e",
-      "type": "node",
+      "type": "pwa-node",
       "request": "launch",
       "program": "${workspaceFolder}/node_modules/protractor/bin/protractor",
-      "protocol": "inspector",
       "args": ["${workspaceFolder}/e2e/protractor.conf.js"]
     }
   ]

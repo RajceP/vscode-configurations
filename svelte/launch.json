@@ -4,12 +4,11 @@
     {
       "name": "Chrome",
       "type": "pwa-chrome",
-      "preLaunchTask": "npm: start",
+      "preLaunchTask": "npm: dev",
       "postDebugTask": "npm stop",
       "request": "launch",
-      "url": "http://localhost:3000",
+      "url": "http://localhost:5000",
       "webRoot": "${workspaceFolder}/src",
-      "userDataDir": false,
       "sourceMapPathOverrides": {
         "webpack:///src/*": "${webRoot}/*"
       }

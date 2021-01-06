@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "group": "build",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": {
+          "regexp": "ˆ$"
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Compiling...",
+          "endsPattern": "."
+        }
+      }
+    },
+    {
+      "label": "npm stop",
+      "type": "shell",
+      "command": "echo '${command:workbench.action.tasks.terminate}'",
+      "presentation": {
+        "echo": true,
+        "reveal": "never",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+      }
+    }
+  ]
+}
