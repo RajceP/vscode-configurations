@@ -8,9 +8,9 @@
       "name": "Listen for XDebug",
       "type": "php",
       "request": "launch",
-      "port": 9000,
+      "port": 9003,
       "pathMappings": {
-        "/mnt/a/devroot": "a:/www"
+        "/var/www/html": "/home/petr/dev/php"
       }
     },
     {
@@ -19,7 +19,7 @@
       "request": "launch",
       "program": "${file}",
       "cwd": "${fileDirname}",
-      "port": 9000
+      "port": 9003
     }
   ]
 }
