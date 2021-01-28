@@ -4,10 +4,10 @@
     {
       "name": "ng serve",
       "type": "pwa-chrome",
+      "runtimeExecutable": "/Applications/Google Chrome Dev.app/Contents/MacOS/Google Chrome Dev",
       "request": "launch",
       "preLaunchTask": "npm: start",
       "postDebugTask": "npm stop",
-      "userDataDir": "false",
       "url": "http://localhost:4200/#",
       "webRoot": "${workspaceFolder}",
       "sourceMapPathOverrides": {
