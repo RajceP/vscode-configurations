@@ -6,8 +6,7 @@
     "source.fixAll.eslint"
   ],
   "editor.formatOnSave": true,
-  "peacock.color": "#221a36",
-  "peacock.remoteColor": "#000000",
+  "peacock.color": "#000000",
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#000000",
     "titleBar.activeForeground": "#e7e7e7",

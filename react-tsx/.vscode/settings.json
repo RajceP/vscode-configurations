@@ -12,7 +12,7 @@
   "files.associations": {
     "*.js": "javascriptreact"
   },
-  "peacock.remoteColor": "#61dafb",
+  "peacock.color": "#61dafb",
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#61dafb",
     "titleBar.activeForeground": "#15202b",

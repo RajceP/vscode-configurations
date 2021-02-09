@@ -4,6 +4,7 @@
     {
       "name": "Chrome",
       "type": "pwa-chrome",
+      "runtimeExecutable": "/Applications/Google Chrome Dev.app/Contents/MacOS/Google Chrome Dev",
       "preLaunchTask": "npm: dev",
       "postDebugTask": "npm stop",
       "request": "launch",

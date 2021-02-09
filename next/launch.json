@@ -3,10 +3,10 @@
   "configurations": [
     {
       "type": "pwa-chrome",
+      "runtimeExecutable": "/Applications/Google Chrome Dev.app/Contents/MacOS/Google Chrome Dev",
       "request": "launch",
       "name": "Next: Chrome",
       "url": "http://localhost:3000",
-      "userDataDir": false,
       "webRoot": "${workspaceFolder}"
     },
     {
